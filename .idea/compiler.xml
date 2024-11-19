@@ -8,24 +8,32 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="security" />
-        <module name="gateway" />
+        <module name="produit" />
         <module name="discovery" />
-        <module name="recherche" />
+        <module name="authentification" />
+        <module name="Authentification" />
+        <module name="gateway" />
+        <module name="Produit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chat" target="21" />
+      <module name="ms-chat-socket" target="21" />
       <module name="security (1)" target="17" />
       <module name="security (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Authentification" options="-parameters --enable-preview" />
+      <module name="Produit" options="-parameters" />
+      <module name="authentification" options="-parameters --enable-preview" />
+      <module name="chat" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="recherche" options="-parameters" />
-      <module name="security" options="-parameters --enable-preview" />
+      <module name="ms-chat-socket" options="" />
+      <module name="produit" options="-parameters" />
       <module name="security (1)" options="-parameters" />
       <module name="security (2)" options="-parameters" />
     </option>

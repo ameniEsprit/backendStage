@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -9,6 +10,10 @@
         <option value="$PROJECT_DIR$/recherche/pom.xml" />
         <option value="$PROJECT_DIR$/security/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-3-jwt-security/pom.xml" />
+        <option value="$PROJECT_DIR$/chat/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-chat-socket-master/pom.xml" />
+        <option value="$PROJECT_DIR$/Produit/pom.xml" />
+        <option value="$PROJECT_DIR$/Authentification/pom.xml" />
       </list>
     </option>
   </component>
